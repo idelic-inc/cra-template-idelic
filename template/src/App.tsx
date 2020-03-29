@@ -44,14 +44,14 @@ const App: FC = () => {
     display: 'flex',
     flexDirection: 'column',
     fontSize: 'calc(10px + 2vmin)',
-    justifyXontent: 'center',
+    justifyContent: 'center',
     minHeight: '100vh'
   });
 
-  const toggleTheme = (): void => {
+  const toggleTheme = (e): void => {
     GlobalTheme = composeTheme(!GlobalTheme.darkMode);
     setTheme(!selectedTheme);
-    !triggered && setTriggered(true);
+    if(!triggered) setTriggered(true);
   }
 
   return (
