@@ -2,10 +2,11 @@
   "name": "cra-template-idelic",
   "version": "1.0.0",
   "keywords": [
-    "emotion",
-    "react",
-    "idelic",
+    "cra-template-idelic",
     "create-react-app",
+    "emotion",
+    "idelic",
+    "react",
     "template",
     "typescript"
   ],
@@ -13,7 +14,7 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idelic-inc/cra-template-idelic.git",
+    "url": "https://github.com/idelic-inc/cra-template-idelic.git",
     "directory": "packages/cra-template-idelic"
   },
   "license": "MIT",
@@ -26,10 +27,5 @@
   "files": [
     "template",
     "template.json"
-  ],
-  "homepage": "https://github.com/idelic-inc/cra-template-idelic#readme",
-  "scripts": {
-    "test": "test"
-  },
-  "author": "Idelic Inc."
+  ]
 }

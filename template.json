@@ -32,7 +32,7 @@
       "jest-enzyme": "^7.1.2",
       "lint-staged": "^2.0.2",
       "office-ui-fabric-react": "^7.105.4",
-      "prettier": "^10.1.0",
+      "prettier": "^2.0.2",
       "react-app-polyfill": "^1.0.6",
       "react-redux": "^7.1.1",
       "redux": "^4.0.5",
@@ -41,6 +41,7 @@
       "typescript": "^3.8.3"
       },
     "scripts": {
+      "depfix": "node ./scripts/dependencyFix.js && npm run prettier --write package.json && npm install",
       "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\"",
       "lint": "eslint --fix \"src/**/*.ts\" \"src/**/*.tsx\""
     },

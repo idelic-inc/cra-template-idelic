@@ -48,7 +48,7 @@ const App: FC = () => {
     minHeight: '100vh'
   });
 
-  const toggleTheme = (e): void => {
+  const toggleTheme = (e: any): void => {
     GlobalTheme = composeTheme(!GlobalTheme.darkMode);
     setTheme(!selectedTheme);
     if(!triggered) setTriggered(true);
