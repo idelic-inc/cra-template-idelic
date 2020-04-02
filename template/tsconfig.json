@@ -15,7 +15,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es5",
-    "types": ["node", "@emotion/core"]
+    "types": ["@emotion/core"]
   },
   "include": ["src"]
 }
