@@ -2,7 +2,7 @@
   "package": {
     "dependencies": {},
     "scripts": {
-      "depfix": "node ./scripts/dependencyFix.js && npm run prettier --write package.json && npm install",
+      "depfix": "node ./scripts/dependencyFix.js && npm install",
       "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\"",
       "lint": "eslint --fix \"src/**/*.ts\" \"src/**/*.tsx\""
     },
