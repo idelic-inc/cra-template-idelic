@@ -1,20 +1,28 @@
-# cra-template-typescript
+# cra-template-idelic
 
 This is the official Idelic template for [Create React App](https://github.com/facebook/create-react-app).
 
-To use this template, add `--template idelic` when creating a new app. It designed to be used in conjunction with `idelic-react-scripts`. 
+To use this template, add `--template idelic` when creating a new app.
 
 For example:
 
 ```sh
-npx create-react-app my-app --template idelic --scripts-version idelic-react-scripts
+npx create-react-app my-app --template idelic 
 
 # or
 
-yarn create react-app my-app --template idelic --scripts-version idelic-react-scripts
+yarn create react-app my-app --template idelic
 ```
 
-For more information, please refer to:
+# Integrate with an Existing Application
 
-- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
-- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
+To integrate with an existing application, replace the following files/folders in your project directory:
+
+```
+.eslintrc
+package.json
+/scripts/dependencyFix.js
+.tsconfig.json
+```
+
+then run a clean install on your project.
